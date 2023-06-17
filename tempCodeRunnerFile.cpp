@@ -1,8 +1,5 @@
-void printarray(int arr[], int n)
-{
-    for (int i = 0; i < n; i++)
+ for(int i=0;i<half ; i++)
     {
-        cout << arr[i] << " ";
+        nq.push(q.front());
+        q.pop();
     }
-    cout << endl;
-}
