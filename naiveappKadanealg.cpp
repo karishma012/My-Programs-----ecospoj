@@ -1,4 +1,5 @@
-#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
 //NAIVE APPROACH TO SOLVE KADANE'S ALGORITHM
 int maxSubarraySum(int arr[], int n) {
    int maxi = arr[0];
@@ -9,10 +10,7 @@ int maxSubarraySum(int arr[], int n) {
         {
           sum+=arr[j];
 
-          if(sum>maxi)
-          {
-            maxi=sum;
-          }
+          maxi= max(maxi,sum);
         }
     }
   return maxi;
