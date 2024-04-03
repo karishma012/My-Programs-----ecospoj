@@ -6,7 +6,7 @@ void swapalternate(int arr[],int n)
     for(i=0;i<n;i+=2)
     {
         if(i+1 < n) 
-        //kya aage vala element array me lie karra hai? usse check krne vali condition h ye (eg : 1<4)
+        //kya aage vala element array ke lie karra hai? usse check krne vali condition h ye (eg : 1<4)
         //arr[i+1] nahi likhna
         swap(arr[i],arr[i+1]);
     }
